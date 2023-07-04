@@ -5,7 +5,7 @@ from tkinter import *
 import seaborn as sns
 import re
 
-df=pd.read_csv("C:/Users/aarat/AppData/Local/Programs/Python/Python310/YouTube.csv")
+df=pd.read_csv("D:/python/YouTube.csv")
 
 df.dropna(inplace=True)
 df.info()
@@ -42,7 +42,7 @@ ind = np.arange(len(values))
 
 root=Tk()
 root.title('Data visualization')
-root.iconbitmap("YouTube.csv")
+#root.iconbitmap("YouTube.csv")
 root.geometry('500x500')
 root.config(bg='LightCyan3')
 
